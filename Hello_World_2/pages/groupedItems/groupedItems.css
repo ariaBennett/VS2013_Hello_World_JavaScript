@@ -104,3 +104,8 @@
         color: WindowText;
     }
 }
+
+#buttText {
+	position:absolute;
+	text-align:center;
+}

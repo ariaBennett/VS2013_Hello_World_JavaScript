@@ -25,11 +25,17 @@
 
     <div class="itemtemplate" data-win-control="WinJS.Binding.Template">
         <div class="item">
-            <img class="item-image" src="#" data-win-bind="src: backgroundImage; alt: title" />
-            <div class="item-overlay">
+            <img class="item-image" src="#" data-win-bind="src: backgroundImage; alt: title" style="background-color: #B04A4A;" />
+            
+			<div class="item-overlay">
                 <h4 class="item-title" data-win-bind="textContent: title"></h4>
                 <h6 class="item-subtitle win-type-ellipsis" data-win-bind="textContent: subtitle"></h6>
             </div>
+        	<div data-win-control="WinJS.UI.ViewBox">
+        		<div style="text-align:center; ">Woah amazing livetile!</div>
+        	</div>
+        	
+
         </div>
     </div>
 
@@ -52,8 +58,10 @@
                     itemTemplate: select('.itemtemplate'),
                     ongroupheaderinvoked: select('.pagecontrol').winControl.groupHeaderInvoked,
                     oniteminvoked: select('.pagecontrol').winControl.itemInvoked
-                }">
+                }" style="left: -30px; top: -10px; background-color: #D11CB3;">
             </div>
+        	<textarea id="buttText" class="win-textarea">buttsbutssbutss</textarea>
+        	
         </section>
     </div>
 </body>

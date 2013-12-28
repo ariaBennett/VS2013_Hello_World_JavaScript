@@ -11,4 +11,8 @@
             // TODO: Initialize the page here.
         }
     });
+
+    // FREYA
+    var freyas = document.getElementsByClassName("freya1");
+    window.test = freyas;
 })();
